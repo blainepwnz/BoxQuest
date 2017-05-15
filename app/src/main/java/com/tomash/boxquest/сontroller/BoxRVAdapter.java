@@ -1,22 +1,16 @@
-package com.tomash.boxquest.View.Adapter;
+package com.tomash.boxquest.сontroller;
 
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import com.tomash.boxquest.Controller.BoxPresenter;
-import com.tomash.boxquest.Controller.Randomizer;
-import com.tomash.boxquest.Model.Box;
+import com.tomash.boxquest.model.Box;
 import com.tomash.boxquest.R;
 
 import java.util.List;
 
-/**
- * Created by Andrew on 20.06.2016.
- */
 public class BoxRVAdapter extends RecyclerView.Adapter<BoxRVAdapter.BoxViewHolder> {
     private List<Box> mBoxList;
     private BoxPresenter mPresenter;

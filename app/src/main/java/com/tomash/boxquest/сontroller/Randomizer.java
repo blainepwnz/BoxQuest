@@ -1,14 +1,12 @@
-package com.tomash.boxquest.Controller;
+package com.tomash.boxquest.сontroller;
 
-import com.tomash.boxquest.Model.Box;
+import com.tomash.boxquest.model.Box;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created by Andrew on 20.06.2016.
- */
+
 public class Randomizer {
     private static Random mRandom = new Random();
 

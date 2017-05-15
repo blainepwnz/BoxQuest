@@ -1,27 +1,21 @@
-package com.tomash.boxquest.View.Activities;
+package com.tomash.boxquest.view;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import com.squareup.picasso.Picasso;
-import com.tomash.boxquest.Controller.BoxPresenter;
-import com.tomash.boxquest.Controller.Randomizer;
-import com.tomash.boxquest.Model.Box;
+import com.tomash.boxquest.сontroller.BoxPresenter;
+import com.tomash.boxquest.сontroller.Randomizer;
+import com.tomash.boxquest.model.Box;
 import com.tomash.boxquest.R;
-import com.tomash.boxquest.Util.GridLayoutItemDecoration;
-import com.tomash.boxquest.View.Adapter.BoxRVAdapter;
+import com.tomash.boxquest.util.GridLayoutItemDecoration;
+import com.tomash.boxquest.сontroller.BoxRVAdapter;
 
 import java.util.ArrayList;
-import java.util.List;
-
-import icepick.Icepick;
-import icepick.State;
 
 public class MainActivity extends AppCompatActivity implements BoxPresenter {
     private RecyclerView mRecyclerView;

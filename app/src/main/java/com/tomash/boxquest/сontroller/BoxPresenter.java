@@ -1,10 +1,6 @@
-package com.tomash.boxquest.Controller;
+package com.tomash.boxquest.сontroller;
 
-import com.tomash.boxquest.Model.Box;
 
-/**
- * Created by Andrew on 20.06.2016.
- */
 public interface BoxPresenter {
     /**
      * Callback for list size for presenter

@@ -1,4 +1,4 @@
-package com.tomash.boxquest.Util;
+package com.tomash.boxquest.util;
 
 
 import android.graphics.Rect;

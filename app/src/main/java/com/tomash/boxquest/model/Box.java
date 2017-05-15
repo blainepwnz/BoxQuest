@@ -1,8 +1,5 @@
-package com.tomash.boxquest.Model;
+package com.tomash.boxquest.model;
 
-/**
- * Created by Andrew on 20.06.2016.
- */
 public class Box {
     /**
      * if true - contains bomb , else not
